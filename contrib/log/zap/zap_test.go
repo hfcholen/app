@@ -22,6 +22,7 @@ func TestZap(t *testing.T) {
 	defer logger.Sync()
 
 	log.SetLogger(logger)
+
 	log.Info("info")
 	log.Debug("debug")
 	log.Debug("warn")
