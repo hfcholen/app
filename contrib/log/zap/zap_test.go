@@ -18,6 +18,7 @@ func TestZap(t *testing.T) {
 		Compress:   true, // 启用压缩
 	}
 	logger := NewLogger(config)
+
 	defer logger.Sync()
 
 	log.SetLogger(logger)
