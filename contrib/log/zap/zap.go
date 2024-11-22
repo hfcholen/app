@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/app/log"
+	"github.com/hfcholen/app/log"
 	"github.com/natefinch/lumberjack"
 )
 

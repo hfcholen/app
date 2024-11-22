@@ -3,7 +3,7 @@ package logrus
 import (
 	"testing"
 
-	"github.com/app/log"
+	"github.com/hfcholen/app/log"
 )
 
 func TestLogrus(t *testing.T) {

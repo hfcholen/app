@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/app/log"
+	"github.com/hfcholen/app/log"
 	"github.com/natefinch/lumberjack"
 	"github.com/sirupsen/logrus"
 )

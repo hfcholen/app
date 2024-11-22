@@ -3,7 +3,7 @@ package zap
 import (
 	"testing"
 
-	"github.com/app/log"
+	"github.com/hfcholen/app/log"
 )
 
 func TestZap(t *testing.T) {
