@@ -2,11 +2,11 @@
 .idea/
 .vscode/
 
-# Go mod 和 vendor 缓存
+# Go mod 缓存
 log/logrus/go.sum
 contrib/log/logrus/go.sum
 contrib/log/zap/go.sum
 
-# 操作系统生成的隐藏文件
+# 操作系统生成的隐藏
 .DS_Store
 
